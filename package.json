@@ -1,0 +1,36 @@
+{
+  "name": "vscode-copy-unix-path",
+  "displayName": "Copy Unix Path",
+  "description": "Adds a context menu item to copy the current file's path in Unix-style format.",
+  "version": "0.0.1",
+  "publisher": "XP",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.copyUnixPath"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.copyUnixPath",
+        "title": "Copy Unix Path"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.copyUnixPath",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
