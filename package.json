@@ -1,8 +1,8 @@
 {
   "name": "vscode-copy-unix-path",
-  "displayName": "Copy Unix Path",
+  "displayName": "XP Copy Unix Path",
   "description": "Adds a context menu item to copy the current file's path in Unix-style format.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "XP",
   "engines": {
     "vscode": "^1.50.0"
