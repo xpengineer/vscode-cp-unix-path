@@ -1,5 +1,5 @@
 {
-  "name": "vscode-copy-unix-path",
+  "name": "xp-vscode-copy-unix-path",
   "displayName": "XP Copy Unix Path",
   "description": "Adds a context menu item to copy the current file's path in Unix-style format.",
   "version": "0.0.2",
@@ -32,5 +32,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/xpengineer/vscode-cp-unix-path",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/xpengineer/vscode-cp-unix-path.git"
+  }
 }
